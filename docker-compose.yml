@@ -1,0 +1,12 @@
+version: '3'
+services:
+  author:
+    image: aem-author
+    build: ./author
+    ports:
+      - "4502:4502"
+  publish:
+    image: aem-publish
+    build: ./publish
+    ports:
+      - "4503:4503"
