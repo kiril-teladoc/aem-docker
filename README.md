@@ -12,10 +12,8 @@ Base Image is created out of Ubuntu image and contains the licence file and AEM 
 
 Author and Publish Images are created out of Base Image.
 
-```
-Important note:
-To Run the AEM Instance, You need Minimum 2GB Memory and 5GB Disk Space. However, This tutorial may ask you to create 3 or more containers running parallelly which demand a minimum of 8GB RAM configuration If you are trying in your Personal Computer.
-```
+*__Important note:__
+To Run the AEM Instance, You need Minimum 2GB Memory and 5GB Disk Space.* 
 
 ## Creating the Docker images
 When setting up the instances for the first time, you have to create the Docker images.
