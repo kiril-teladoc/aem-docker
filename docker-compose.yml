@@ -3,10 +3,19 @@ services:
   author:
     image: aem-author
     build: ./author
+    depends_on:
+      - aem-base-image
     ports:
       - "4502:4502"
+
   publish:
     image: aem-publish
     build: ./publish
+    depends_on:
+      - aem-base-image
     ports:
       - "4503:4503"
+
+  aem-base-image:
+    image: aem-base-image
+    build: ./base_image
